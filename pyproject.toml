@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta" # name of the python object that fronten
 
 [project]
 name = "packa"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="numlims", email="numlims@med.uni-greifswald.de"}
 ]
@@ -13,7 +13,7 @@ readme = "readme.md"
 requires-python = ">=3.8"
 dependencies = [
   "packb @ https://github.com/numlims/packb/archive/refs/tags/v0.0.3.zip",
-  "packc @ https://github.com/numlims/packc/archive/refs/tags/v0.0.2.zip"
+  "packc @ https://github.com/numlims/packc/archive/refs/tags/v0.0.3.zip"
 ]
 classifiers = [
   "Programming Language :: Python :: 3"
